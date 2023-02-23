@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Gamet</title>
+</head>
+    <body>
+        <span id="highscore" class="h4 pl-1 pt-1">Highest Combo: 0</span>
+        <br>
+        <h1 id="title" class="title text-center h1 pb-3" style="font-size: 5rem;">Press Spacebar To Start</h1>
+        <br>
+        
+        
+        <div class="container-lg pt-2" id="buttons">
+            <div class="row pb-4">
+                <div class="col-2"></div>
+                <div class="col-4 d-flex justify-content-center">
+                    <div id="red" style="width:250px;height: 250px;background-color: red; border: solid 7px;"></div>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <div id="blue" style="width:250px;height: 250px;background-color: blue; border: solid 7px;"></div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3 class="h3" id="Counter">Combo Count: 0</h3>
+                </div>
+            </div>
+            <div class="row pt-3 pb-5">
+                <div class="col-2"></div>
+                <div class="col-4 d-flex justify-content-center">
+                    <div id="yellow" style="width:250px;height: 250px;background-color: yellow; border: solid 7px;"></div>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <div id="green" style="width:250px;height: 250px;background-color:green; border: solid 7px;"></div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-12 pt-5">
+                    <h2 id="res">Combo Oder</h2>
+                </div>
+            </div>
+
+            <div id="res" class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <div id="res" class="items d-flex justify-content-center"></div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="game.js"></script>
+    </body>
+</html>
